@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/app"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#66CCFF" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="填写个人信息"
+            
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d5d5d7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="姓名："
+            android:textColor="#FFF0F5"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/et_xyname"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:hint="请输入"
+            android:textColor="#FFF0F5"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="性别："
+            android:textColor="#FFF0F5"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/et_sex"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:hint="请输入"
+            android:textColor="#FFF0F5"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="年龄："
+            android:textColor="#FFF0F5"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:hint="请输入"
+            android:textColor="#FFF0F5"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="宣言："
+            android:textColor="#FFF0F5"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/et_xy"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:hint="请输入"
+            android:textColor="#FFF0F5"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d5d5d7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+              >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:layout_margin="1dp"
+                >
+                <Button
+                    android:id="@+id/bt_xy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="确定"
+                    
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+        
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+              >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:layout_margin="1dp"
+                >
+                <Button
+                    android:id="@+id/bt_ret"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="返回"
+                    
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

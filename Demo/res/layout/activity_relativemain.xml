@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#66CCFF"
+        >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_test_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="主页面"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal" ><!-- 水平居中 -->
+
+        <LinearLayout
+            android:id="@+id/ll_cloth"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#1885CD"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_cloth"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_cloth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dining"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:background="#FF6868"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_dining"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_dining" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_store"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#1885CD"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_store"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_storehouse" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_dery"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:background="#00CCCC"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/iv_del"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_delivery" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
